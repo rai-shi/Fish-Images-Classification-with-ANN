@@ -17,26 +17,18 @@ In the project, the "A Large Scale Fish Dataset" dataset on the Kaggle platform 
 - Creating Model
 ##### Model Summary
 
-Layer (type)                    ┃ Output Shape           ┃       Param # ┃
-┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
-│ dense_8 (Dense)                 │ (None, 512)            │     6,291,968 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dropout_7 (Dropout)             │ (None, 512)            │             0 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dense_9 (Dense)                 │ (None, 256)            │       131,328 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dropout_8 (Dropout)             │ (None, 256)            │             0 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dense_10 (Dense)                │ (None, 128)            │        32,896 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dropout_9 (Dropout)             │ (None, 128)            │             0 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dense_11 (Dense)                │ (None, 64)             │         8,256 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dropout_10 (Dropout)            │ (None, 64)             │             0 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dense_12 (Dense)                │ (None, 9)              │           585 │
-└─────────────────────────────────┴────────────────────────┴───────────────┘
+| Layer (type)    | Output Shape   | Param #    |
+| --------------- | -------------- | ---------- |
+| dense_8 (Dense) | (None, 512)    | 6,291,968  |
+| dropout_7 (Dropout) | (None, 512) | 0          |
+| dense_9 (Dense) | (None, 256)    | 131,328    |
+| dropout_8 (Dropout) | (None, 256) | 0          |
+| dense_10 (Dense) | (None, 128)   | 32,896     |
+| dropout_9 (Dropout) | (None, 128) | 0          |
+| dense_11 (Dense) | (None, 64)    | 8,256      |
+| dropout_10 (Dropout) | (None, 64) | 0          |
+| dense_12 (Dense) | (None, 9)     | 585        |
+
  Total params: 6,465,033 (24.66 MB)
  Trainable params: 6,465,033 (24.66 MB)
  Non-trainable params: 0 (0.00 B)
@@ -44,4 +36,5 @@ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
  ### Model Performance
 Model Performance Test Loss:  2.1978471279144287 Test Accuracy:  0.0994444414973259 These results show that the model performs poorly on the training data and is inconsistent on the validation set.
 
-Kaggle: https://www.kaggle.com/code/cansuevik/fish-classification-deep-learning
+### Kaggle Source 
+https://www.kaggle.com/code/ayenurtak/fish-images-classification-with-ann
