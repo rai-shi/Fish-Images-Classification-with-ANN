@@ -1,5 +1,7 @@
 # Fish-Images-Classification-with-ANN
 
+still under development!!!
+
 ### Project Purpose 
 The aim of this project is to develop a deep learning model that can accurately classify fish images species. The model takes fish images data as input and determines which species these images belong to.
 
