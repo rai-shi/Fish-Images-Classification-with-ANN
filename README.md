@@ -30,7 +30,7 @@ You can review the A Large-Scale Dataset for Fish Segmentation and Classificatio
 
 Model: "**sequential**"
 
-| Layer (type)          | Output Shape      | Param #      |
+| Layer (type)          | Output Shape      | Param        |
 | ---------------       | --------------    | ----------   |
 | dense (Dense)         | (None, 256)       |   3,145,984  │  
 | dropout (Dropout)     | (None, 256)       |   0          |
